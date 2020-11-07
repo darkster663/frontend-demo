@@ -1,0 +1,548 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="System.String[]">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acreditari - Creare cont</title>
+    <!--start-marker:styles-->
+    <link rel="shortcut icon" type="image/x-icon" href="https://bilete.frf.ro/assets/imgs/logo-mobile.png">
+    <link rel="prefetch" href="/assets/imgs/spinner.png">
+
+
+    <meta property="og:image" content="https://bilete.frf.ro/assets/imgs/logo-mobile.png" />
+    <meta property="og:image:width" content="100" />
+    <meta property="og:image:height" content="95" />
+
+    <link href="/assets/css/vendor/bundle.css?v=5S7hyuWSKtmUTwNQmoDu_zGDfNHa_V1RtHgxk-gIOfI1" rel="stylesheet"/>
+
+    <!-- UltraNews CSS  -->
+    <link href="/assets/css/bundle.css?v=rYNu-xKlFMKwrXBKUPlZaMBn6YVABu0-tIWOkEiErI81" rel="stylesheet"/>
+
+    <!--end-marker:styles-->
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+    <script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-2510520-2', 'auto');
+	</script>
+
+    <!-- Facebook Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window,document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '342482416439184'); 
+	</script>
+	<!-- End Facebook Pixel Code -->
+
+    
+
+    <script>fbq('track', 'PageView');</script>
+</head>
+<body class="">
+
+	
+	<!-- Preloader Start -->
+	<div id="preloader-active">
+		<div class="preloader d-flex align-items-center justify-content-center">
+			<div class="preloader-inner position-relative">
+				<div class="text-center">
+					<div data-loader="spinner"></div>
+					<p>Se afiseaza pagina ...</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main-wrap">
+		<!-- Main Wrap Start -->
+		
+
+		<!--start-marker:header-->
+		<header class="main-header header-style-2">
+			
+<div class="top-bar d-none d-md-block mb-20" style="background:#2C4390">
+    <div class="container">
+        <div class="topbar-inner pt-10 pb-10">
+            <div class="row">
+                <div class="col-6">
+                    <ul class="header-social-network d-inline-block list-inline">
+                        <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" href="https://www.frf.ro">frf.ro</a></li>
+                        <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" href="https://magazin.frf.ro">magazin.frf.ro</a></li>
+                        <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" href="http://cuparomaniei.frf.ro">cuparomaniei.frf.ro</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="col-6 text-right">
+                    <ul class="header-social-network d-inline-block list-inline">
+                        <li class="list-inline-item"><a href="/">RO</a></li>
+                        <li class="list-inline-item"><a href="/en/">EN</a></li>
+                    </ul>
+                    <div class="vline-space d-inline-block"></div>
+                    <div class="user-account d-inline-block font-small session-login-summary-container">
+                        <a href="/mvc/account/login" role="button">
+                            
+                            login
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End top bar-->
+
+			
+<div class="header-bottom header-sticky background-white text-center">
+    <div class="mobile_menu d-lg-none d-block"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 d-none d-lg-block">
+                <div class="header-logo">
+                    <a href="/">
+                        <img class="logo-img d-inline" src="/media/n1uldigm/logo_frf_mare.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-10 col-md-12">                            
+                <div class="logo-tablet d-md-inline d-lg-none d-none">
+                    <a href="/">
+                        <img class="logo-img d-inline" src="/assets/imgs/logo-tablet.png" alt="">
+                    </a>
+                </div>
+                <div class="logo-mobile d-inline d-md-none">
+                    <a href="/">
+                        <img class="logo-img d-inline" src="/assets/imgs/logo-mobile.png" alt="" style="    height: 60px;">
+                    </a>
+                </div>
+
+                
+
+<!-- Main-menu -->
+<div class="main-nav text-left d-none d-lg-block">
+    <nav>
+        <ul id="navigation" class="main-menu">
+                <li class="menu-item-has-children">
+                    <a href="/bilete/">Bilete</a>
+                    <ul class="sub-menu">
+                        <li><a href="/bilete/nationala/">Echipa națională</a></li>
+                        <li><a href="/bilete/nationala-u21/">Națională U21</a></li>
+                        <li><a href="/bilete/nationala-feminin/">Națională feminin</a></li>
+                        <li><a href="/bilete/cupa-si-supercupa/">Cupa și Supercupa</a></li>
+                        <li><a href="/bilete/juniori/">Juniori</a></li>
+                        <li><a href="/bilete/futsal/">Futsal</a></li>
+                        <li><a href="/bilete/efotbal/"> eFotbal</a></li>
+                        <li><a href="/bilete/alte-evenimente/">Alte evenimente</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="/info-suporteri/">Info suporteri</a>
+                    <ul class="sub-menu">
+                        <li><a href="/info-suporteri/dizabilitati/">Dizabilitati </a></li>
+                        <li><a href="/info-suporteri/family-zone/">Family zone</a></li>
+                        <li><a href="/info-suporteri/procedura-retur-bilete/">Procedura retur bilete </a></li>
+                        <li><a href="/info-suporteri/obiecte-interzise/">Obiecte interzise si reguli de comportament</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="/stadioane/">Stadioane </a>
+                    <ul class="sub-menu">
+                        <li><a href="/stadioane/arena-nationala/">Arena Națională</a></li>
+                        <li><a href="/stadioane/ion-oblemenco/">Ion Oblemenco</a></li>
+                        <li><a href="/stadioane/cluj-arena/">Cluj Arena </a></li>
+                        <li><a href="/stadioane/ilie-oana/">Ilie Oană </a></li>
+                    </ul>
+                </li>
+                <li><a href="/corporate/">Oferta corporate</a></li>
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/acreditari/">Acreditari</a></li>
+            <li class="d-md-none"><a href="/">RO</a></li>
+            <li class="d-md-none"><a href="/en/">EN</a></li>
+            <li class="d-md-none session-login-summary-container">
+                <a href="/mvc/account/login" role="button">
+                    
+                    login
+                </a>
+            </li>
+            
+
+            
+                                                    
+        </ul>
+    </nav>
+</div>
+
+                            
+                <!-- Off canvas -->
+                
+                <!-- Search -->
+                
+                <!-- Shopping cart -->
+                <div class="nav-shopping-cart session-order-summary-container">
+                    <div class="dropdown cart_dropdown">
+                        <a class="cart-icon nav-link cart_trigger" href="#" data-toggle="dropdown" aria-expanded="false">
+                            <span class="position-relative">
+                                <i class="fa fa-shopping-cart"></i>
+                                
+                            </span>
+                        </a>
+                        <div class="cart_box dropdown-menu dropdown-menu-right keep-open">
+                            <div class="cart_footer mt-15 pb-15">
+                                <p class="cart_buttons">
+                                    <a href="/mvc/checkout/index" class="btn btn-danger view-cart"><i class="fa fa-shopping-cart mr-2"></i>Vezi cosul de cumparaturi</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+		</header>
+		<!--end-marker:header-->
+		<main class="position-relative">
+
+			
+
+			
+
+<div class="archive-header text-center">
+	<div class="container">
+		<h2><span class="">Creare cont acreditari </span></h2>
+		<div class="breadcrumb">
+            <a href="/" rel="nofollow">Prima pagina</a>
+            >
+            Acreditari 
+        </div>
+		<div class="bt-1 border-color-1 mt-30 mb-50"></div>
+	</div>
+</div>
+
+<!--start-marker:main content-->
+<div class="container">
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="nume">Nume</label>
+              <input type="text" class="form-control" id="nume" placeholder="Nume">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="prenume">Prenume</label>
+              <input type="text" class="form-control" id="prenume" placeholder="Prenume">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="cnp">CNP</label>
+              <input type="text" class="form-control" id="cnp" placeholder="CNP">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="tipAcreditare">Tip acreditare</label><br>
+                <select id="tipAcreditare" class="form-group">
+                  <option selected>Tipul acreditarii</option>
+                  <option>Tip Acreditare 1</option>
+                  <option>Tip Acreditare 2</option>
+                  <option>Tip Acreditare 3</option>
+                  <option>Tip Acreditare 4</option>
+                </select>
+            </div>
+            <div class="form-group col-md-8">
+                <label for="institutie">Institutia reprezentata</label>
+                <input type="text" class="form-control" id="institutie" placeholder="Institutia reprezentata">
+            </div>
+        </div> 
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="password1">Parola</label>
+              <input type="password" class="form-control" id="password1" placeholder="Parola">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="password2">Confirmare parola</label>
+              <input type="password" class="form-control" id="password2" placeholder="Confirmare parola">
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Inregistrare</button>
+    </form>                   
+</div>
+<!--end-marker:main content-->
+
+		</main>
+		<!--start-marker:footer-->
+		<footer class="mt-50 background12">
+			
+<div class="container py-5">
+    
+        <div class="row text-center justify-content-center pb-15">
+            <div class="col-12 text-center">
+                <h5 class="py-3">SPONSORI ECHIPA NAȚIONALĂ</h5>
+            </div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/aofkmbbd/telekom-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="Telekom"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/h0bbs53w/fortuna-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="Fortuna"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/cislv1oy/timisoreana_20042020-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="Timisoreana"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/nbrn1mpp/autoklass-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="Autoklass"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/r53dlpsw/romstal-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="ROMSTAL"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/qoyf5k3s/penny-140x74_2.jpg" class="img-fluid" style="max-height: 50px;" alt="PENNY"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/fv5bnfe0/joma-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="JOMA"></div>
+        </div>
+        <div class="row text-center justify-content-center pb-15">
+            <div class="col-12 text-center">
+                <h5 class="py-3">SPONSORI ROM&#194;NIA U21</h5>
+            </div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/g1inzxl2/pambac-140x74-1.png" class="img-fluid" style="max-height: 50px;" alt="Pambac"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/cislv1oy/timisoreana_20042020-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="TIMIȘOREANA"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/h0bbs53w/fortuna-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="FORTUNA"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/qoyf5k3s/penny-140x74_2.jpg" class="img-fluid" style="max-height: 50px;" alt="PENNY"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/fv5bnfe0/joma-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="JOMA"></div>
+        </div>
+        <div class="row text-center justify-content-center pb-15">
+            <div class="col-12 text-center">
+                <h5 class="py-3">SPONSORI CUPA ROM&#194;NIEI</h5>
+            </div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/j3ufgmv4/kaufland-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="Kaufland"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/xdionggi/casapariurilor2-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="CASA"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/cislv1oy/timisoreana_20042020-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="TIMIȘOREANA"></div>
+        </div>
+        <div class="row text-center justify-content-center pb-15">
+            <div class="col-12 text-center">
+                <h5 class="py-3">PARTENERI FRF</h5>
+            </div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/rc5bkm2w/cisgaz-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="CIS GAZ"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/415nhret/reginamaria-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="REGINA MARIA"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/yeuboryl/bucovina-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="BUCOVINA"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/hq3pe5sf/viggo-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="VIGGO"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/lczotdsp/tymbark2-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="TYMBARK"></div>
+				<div class="col-4 col-sm-auto py-3"><img src="/media/bvdakfqu/unicef-140x74.jpg" class="img-fluid" style="max-height: 50px;" alt="UNICEF"></div>
+        </div>
+</div>
+			
+
+			<!-- Footer Start-->
+			<div class="footer-area fix pt-50" style="background-color: #2C4390;">
+				<div class="container">
+					<div class="row d-flex justify-content-between">
+						<div class="col-lg-3 col-md-6">
+							<div class="sidebar-widget widget_categories mb-30">
+								<div class="widget-header position-relative mb-30 mt-30 ml-10">
+									<h5 class="widget-title mt-5 mb-30 color-white">Bilete</h5>
+									<div class="letter-background">B</div>
+								</div>
+								<div class="post-block-list post-module-1 post-module-5">
+									<ul class="float-left mr-30 font-medium">
+											<li class="cat-item cat-item-2 ml-10"><a href="/bilete/nationala/">Echipa națională</a></li>
+											<li class="cat-item cat-item-2 ml-10"><a href="/bilete/nationala-u21/">Națională U21</a></li>
+											<li class="cat-item cat-item-2 ml-10"><a href="/bilete/nationala-feminin/">Națională feminin</a></li>
+											<li class="cat-item cat-item-2 ml-10"><a href="/bilete/cupa-si-supercupa/">Cupa și Supercupa</a></li>
+											<li class="cat-item cat-item-2 ml-10"><a href="/bilete/juniori/">Juniori</a></li>
+											<li class="cat-item cat-item-2 ml-10"><a href="/bilete/futsal/">Futsal</a></li>
+											<li class="cat-item cat-item-2 ml-10"><a href="/bilete/efotbal/"> eFotbal</a></li>
+											<li class="cat-item cat-item-2 ml-10"><a href="/bilete/alte-evenimente/">Alte evenimente</a></li>
+									</ul>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6">
+							<div class="sidebar-widget widget_categories mb-30">
+								<div class="widget-header position-relative mb-30 mt-30 ml-10">
+									<h5 class="widget-title mt-5 mb-30 color-white">Suporteri</h5>
+									<div class="letter-background">INFO</div>
+								</div>
+								<div class="post-block-list post-module-1 post-module-5">
+									<ul class="float-left mr-30 font-medium">
+											<li class="cat-item cat-item-2 ml-10"><a href="/info-suporteri/dizabilitati/">Dizabilitati </a></li>
+											<li class="cat-item cat-item-2 ml-10"><a href="/info-suporteri/family-zone/">Family zone</a></li>
+											<li class="cat-item cat-item-2 ml-10"><a href="/info-suporteri/procedura-retur-bilete/">Procedura retur bilete </a></li>
+											<li class="cat-item cat-item-2 ml-10"><a href="/info-suporteri/obiecte-interzise/">Obiecte interzise si reguli de comportament</a></li>
+									</ul>
+									
+								</div>
+							</div>
+						</div>
+
+						
+
+<div class="col-lg-3 col-md-6 mb-lg-0 mb-30">
+    <div class="sidebar-widget widget-latest-posts mb-30">
+        <div class="widget-header position-relative mb-30 mt-30 ml-10">
+            <h5 class="widget-title mt-5 mb-30 color-white">Magazin</h5>
+            <div class="letter-background">M</div>
+        </div>
+        <div class="post-block-list post-module-1 post-module-5">
+            <ul class="list-post">
+                <li class="mb-30">
+                    <div class="d-flex">
+                        <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
+                            <a class="color-white" href="https://magazin.frf.ro/tricou-joc-galben-ro" target="_blank">
+                                <img src="/media/sltpts1y/tricou-joc-galben-romania.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="post-content media-body">
+                            <h6 class="post-title mb-10 text-limit-2-row"><a class="color-white" href="https://magazin.frf.ro/tricou-joc-galben-ro" target="_blank">Tricou Joc Galben Romania</a></h6>
+                            <div class="entry-meta meta-1 font-x-small color-grey">
+                                <span class="post-on">230,00 RON</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mb-30">
+                    <div class="d-flex">
+                        <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
+                            <a class="color-white" href="https://magazin.frf.ro/jacheta-antrenament-albastru-ro" target="_blank">
+                                <img src="/media/vkpnvc1i/jacheta-antrenament-albastru-romania.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="post-content media-body">
+                            <h6 class="post-title mb-10 text-limit-2-row"><a class="color-white" href="https://magazin.frf.ro/jacheta-antrenament-albastru-ro" target="_blank">Jacheta Antrenament Albastru Romania</a></h6>
+                            <div class="entry-meta meta-1 font-x-small color-grey">
+                                <span class="post-on">150,00 RON</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mb-30">
+                    <div class="d-flex">
+                        <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
+                            <a class="color-white" href="https://magazin.frf.ro/jacheta-antrenament-rosu-ro" target="_blank">
+                                <img src="/media/3slnxqw3/jacheta-antrenament-rosu-romania.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="post-content media-body">
+                            <h6 class="post-title mb-10 text-limit-2-row"><a class="color-white" href="https://magazin.frf.ro/jacheta-antrenament-rosu-ro" target="_blank">Jacheta Antrenament Rosu Romania</a></h6>
+                            <div class="entry-meta meta-1 font-x-small color-grey">
+                                <span class="post-on">150,00 RON</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+						<div class="col-lg-3 col-md-6">
+
+							<div class="sidebar-widget widget_categories mb-30">
+								<div class="widget-header position-relative mb-30 mt-20">
+									<img src="/media/yqbnh3x4/frf-logo-new-359x102.png" style="max-width:unset;max-height:54px" />
+								</div>
+								<div class="post-block-list post-module-1 post-module-5">
+									<ul class="mr-30 font-medium">
+										<li class="cat-item cat-item-2 ml-10"><a target="_blank" href="https://www.frf.ro">frf.ro</a></li>
+										<li class="cat-item cat-item-2 ml-10"><a target="_blank" href="https://magazin.frf.ro">magazin.frf.ro</a></li>
+										<li class="cat-item cat-item-2 ml-10"><a target="_blank" rel="noopener noreferrer" href="http://cuparomaniei.frf.ro">cuparomaniei.frf.ro</a></li>
+									</ul>
+								</div>
+								<div class="container footer-social">
+									<div class="row">
+										<div class="col text-sm-center text-center text-md-left mt-40">
+											<ul class="header-social-network d-inline-block list-inline">
+												<li class="list-inline-item"><a class="social-icon facebook-icon text-xs-center" target="_blank" href="https://www.facebook.com/NationalaRomanieiOfficial"><i class="ti-facebook"></i></a></li>
+												<li class="list-inline-item"><a class="social-icon twitter-icon text-xs-center" target="_blank" href="https://twitter.com/hai_romania"><i class="ti-twitter-alt"></i></a></li>
+												<li class="list-inline-item"><a class="social-icon youtube-icon text-xs-center" target="_blank" href="https://www.youtube.com/channel/UCthNI7cE3k5nTodcga2yBZg"><i class="ti-youtube"></i></a></li>
+												<li class="list-inline-item"><a class="social-icon instagram-icon text-xs-center" target="_blank" href="https://www.instagram.com/echipanationala/"><i class="ti-instagram"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- footer-bottom aera -->
+			<div class="footer-bottom-area" style="background-color: #384e97;">
+				<div class="container">
+					<div class="pt-30 pb-30">
+						<div class="row d-flex align-items-center justify-content-between">
+							<div class="col-lg-4">
+								<div class="footer-copy-right">
+									<p class="font-medium text-light">&copy; 2020 Federatia Romana de Fotbal</p>
+								</div>
+							</div>
+							<div class="col-lg-8">
+								<div class="footer-menu float-lg-right mt-lg-0 mt-3 pr-5 mr-5" style="">
+									<ul class="font-medium">
+											<li><a href="/despre-noi/termeni/">Termeni si conditii</a></li>
+											<li><a href="/despre-noi/confidentialitate/">Confidentialitate</a></li>
+											<li><a href="/despre-noi/cookies/">Cookies</a></li>
+                                            <li><a href="/contact/">Contact</a></li>
+                                            <li><a href="/acreditari/">Acreditari</a></li>
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer End-->
+		</footer>
+		<!--end-marker:footer-->
+	</div> <!-- Main Wrap End-->
+
+	<div class="dark-mark"></div>
+
+	<!--start-marker:app-scripts-->
+	<script src="/assets/js/vendor/bundle.js?v=5EmebwkNjp2nqff9eYTZv4CmWLF5_S-tu14fquUOmwQ1"></script>
+
+	<script src="/assets/js/bundle.js?v=sJ1gI_Rs5hiqV_HsyHygm0HtKqDuN2jCRynUpZ1FtAc1"></script>
+
+	<script>
+	    initMasterBileteFrf2(jQuery, window, {
+		    urlTicketingAppRoot: '/ticketing/',
+		    urlBileteshopAppRoot: '/mvc/'
+	    });
+	</script>
+	<!--end-marker:app-scripts-->
+
+	
+
+		<script>ga('send', 'pageview');</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+	<script>
+		window.cookieconsent.initialise({
+			"palette": {
+				"popup": {
+					"background": "#383b75"
+				},
+				"button": {
+					"background": "#f1d600"
+				}
+			},
+			"content": {
+				"message": "Acest site folosește cookie-uri pentru o mai bună experiență de vizitare. Prin continuarea navigării, ești de acord cu modul de utilizare a acestor informații.",
+				"dismiss": "Am inteles",
+				"link": "Afla mai multe",
+				"href": "https://bilete.frf.ro/despre-noi/cookies/"
+			}
+		});
+	</script>
+</body>
+</html>
